@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phoenix - Contact</title>
+
+    <!-- Font Awesome cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="/public/css/style.css" />
+  </head>
+  <body>
+
+    <!-- Header Section -->
+
+    <header class="header">
+      <section class="flex">
+        <a href="/public/home.html" class="logo">Phoenix</a>
+        <form action="" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            placeholder="Search Courses..."
+            required
+            maxlength="100"
+          />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="/public/images/pic-1.jpg" alt="" />
+          <h3>Reet Jain</h3>
+          <span>Student</span>
+          <a href="/assets/profile.html" class="btn">View Profile</a>
+
+          <div class="flex-btn">
+            <a href="/assets/login.html" class="option-btn">Login</a>
+            <a href="/assets/register.html" class="option-btn">Register</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Side Bar Section -->
+    <div class="side-bar">
+
+      <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+      </div>
+        <div class="profile">
+            <img src="/public/images/pic-1.jpg" alt="" />
+            <h3>Reet Jain</h3>
+            <span>Student</span>
+            <a href="/assets/profile.html" class="btn">View Profile</a>
+          </div>
+
+          <nav class="navbar">
+            <a href="/public/home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="/assets/about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="/assets/courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="/assets/teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teacher</span></a>
+            <a href="/assets/contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+          </nav>
+    </div>
+
+
+    <!-- Contact Section -->
+
+    <section class="contact">
+
+      <div class="row">
+
+        <div class="image">
+          <img src="/public/images/contact-img.svg  " alt="">
+        </div>
+
+        <form action="" method="post">
+          <h3>Get in touch</h3>
+          <input type="text" placeholder="Enter your name"  required class="box" maxlength="100" name="name">
+          <input type="email" placeholder="Enter your email"  required class="box" maxlength="100" name="email">
+          <input type="number" placeholder="Enter your number"  required class="box" maxlength="100" name="number">
+          <textarea name="msg" class="box" placeholder="Enter your Message.." required cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" class="inline-btn" name="submit">
+        </form>
+
+      </div>
+
+      <div class="box-container">
+
+        <div class="box">
+          <i class="fas fa-phone"></i>
+          <h3>Phone Number</h3>
+          <a href="tel:1234567890">123-456-7890</a>
+          <a href="tel:1112223333">111-222-3333</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>Email Address</h3>
+          <a href="mailto:abc123@gmail.com">abc123@gmail.com</a>
+          <a href="mailto:jreet121@gmail.com">jreet121@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Office Address</h3>
+          <a href="#">Flat no. 1, A-1 building, jogeshwari, Mumbai, India - 400104</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- footer Section -->
+    <footer class="footer">
+      &copy; Copyright @ 2023 by <span>Reet Jain</span> | all rights reserved!
+    </footer>
+
+    <!-- Custom Javascript File -->
+    <script src="/public/js/script.js"></script>
+  </body>
+</html>
