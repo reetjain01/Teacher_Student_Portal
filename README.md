@@ -8,7 +8,7 @@ The Student-Teacher Portal, developed with HTML, CSS, JavaScript, and PHP, offer
 <li> HTML </li>
 <li>CSS</li>
 <li>JavaScript</li>
-<li></li>PHP</li>
+<li>PHP</li>
 </ul>
 
 ## Key Features:
@@ -35,3 +35,37 @@ The Student-Teacher Portal, developed with HTML, CSS, JavaScript, and PHP, offer
 <li>Display of teacher information for each course.</li>
 </ul>
 <br>
+
+## Benefits:
+
+<ul>
+<li>Efficient content organization and management.</li>
+<li>Direct communication between teachers and students.</li>
+<li>Engaging learning experience with interactive features.</li>
+</ul>
+
+## Usage:
+
+1.  Clone the repository
+<br> 
+"git clone https://github.com/reetjain01/Teacher_Student_Portal.git"
+<br>
+
+2.  Open the project in your preferred code editor.
+
+3.  Ensure a server environment is set up for PHP execution.
+
+4.  Access the portal through a web browser.
+
+<br>
+
+## Contributing:
+We welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
+
+## Acknowledgements:
+Special thanks to Tanvi Agrawal for their valuable contributions.
+
+## Contact:
+For inquiries, contact jainreet112@gmail.com.
+
+Feel free to explore the Student-Teacher Portal, contribute, and enhance the educational experience for users!
